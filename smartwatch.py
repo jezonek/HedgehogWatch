@@ -24,7 +24,6 @@ def prepare_date_for_display(day, month, year):
 
 
 while (True):
-    # TODO set time format from datetme library, next try to send systemtime to watch
     logging.debug('Started new loop')
     try:
         for second in range(10):
