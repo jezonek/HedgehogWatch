@@ -23,10 +23,9 @@ def prepare_date_for_display(day, month, year):
     return '{day}.{month}.{year}'.format(day=str(day).zfill(2), month=str(month).zfill(2), year=str(year))
 
 
-while (True):
-    logging.debug('Started new loop')
+while True:
     try:
-        for second in range(10):
+        for cycle in range(10):
             for second in range(30):
                 current_time = datetime.datetime.now()
                 statement = prepare_time_for_display(current_time.hour, current_time.minute, current_time.second)
