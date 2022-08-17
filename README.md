@@ -11,6 +11,7 @@ GPIO pin-outs
 
 The breakout board has two headers to allow daisy-chaining:
 
+
 ============ ====== ============= ========= ====================
 Board Pin    Name   Remarks       RPi Pin   RPi Function
 ------------ ------ ------------- --------- --------------------
